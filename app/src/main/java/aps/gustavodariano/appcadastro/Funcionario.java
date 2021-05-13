@@ -1,5 +1,8 @@
 package aps.gustavodariano.appcadastro;
 
+import android.icu.text.SearchIterator;
+import android.icu.text.StringSearch;
+
 public class Funcionario {
     public int id;
     public String nome;
@@ -18,8 +21,8 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "NAME:" + nome +" "+ "|" +" "+
-                "ADRESS:" + endereco +" "+ "|" +" "+
-                "PHONE:" + telefone;
+        return  "NAME: "+ nome +" "+ "|" +" "+
+                "ADRESS: "+ endereco +" "+ "|" +" "+
+                "PHONE: "+ telefone;
     }
 }

@@ -8,7 +8,10 @@
     <ListView
         android:id="@+id/lvFuncionarios"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#E09145"
+        android:backgroundTint="#E09145"
+        android:textAlignment="textStart">
 
 
     </ListView>
